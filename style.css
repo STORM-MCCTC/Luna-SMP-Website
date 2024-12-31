@@ -1,0 +1,33 @@
+
+body {
+    text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgb(0, 2, 34) 35%, rgb(0, 0, 150) 100%);
+    background-attachment: fixed;
+}
+
+.main {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: fit-content;
+    margin: auto;
+}
+
+.linkbutton {
+    background-color: #000000; /* Black background */
+    color: #007bff; /* Blue text */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .linkbutton:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #000000; /* Black text on hover */
+  }
